@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/usr/libexec/java_home -V)",
+      "Bash(./gradlew --stop)",
+      "Bash(gradle --stop)",
+      "Bash(pkill -f GradleDaemon)",
+      "Bash(pkill -f gradle)",
+      "Bash(echo $JAVA_HOME)",
+      "Bash(java -version)",
+      "Bash(echo $SHELL)"
+    ]
+  }
+}
